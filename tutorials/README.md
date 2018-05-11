@@ -9,3 +9,26 @@ We provide some basic tutorials for you to get familar with the code and tools.
 * [Download and evaluate pre-trained models](models.md)
 
 FAQ and Troubleshooting and be found [here](faq.md).
+
+## Diretory structure 
+(assume root is `~/local`)
+```
+R2Plus1D
+│
+│───data
+│───lib
+│───scripts
+│───tools
+│───tutorials
+│───...
+│   ...
+datasets  
+│
+└───hmdb51
+│   |───avi
+│   │    |───brush_hair
+│   │    |───cartwheel
+│   │    |───catch
+│   │    |───...
+
+```
