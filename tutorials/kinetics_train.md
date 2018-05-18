@@ -14,6 +14,10 @@ ffmpeg -y -ss 00:01:47.00 -t 00:00:10.00 -i kinetics/raw_video/train/-7kbO0v4hag
 
 * You also need to prepare the list files for train and validation splits. You can download the list files [here](https://www.dropbox.com/s/fyz9fec72v7gbxj/list.tar.gz). You may want to adjust them (e.g. removing some rows if some videos are missing because of the expried urls).
 
+```
+python process_data/kinetics/shuffle_list.py
+```
+>>>>>>> e48af624d7bdc492e819b8f64ac3550bf8a87da4
 
 * To create lmdb database for training, simple run the following scripts:
 ```
